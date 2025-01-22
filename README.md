@@ -1,8 +1,9 @@
-# React + Vite
+# Juego de tres en raya usando react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+>[!NOTE]
+>Basado en el curso de react de midudev
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Cambia el estado de cada casilla para mostrar el icono del jugador de turno
+- Muestra un modal al terminar el juego, diciendo quien gana
+- Salta confetti al mostrar el ganador
+- Guarda el estado del tablero en el almacenamiento local y lo borra al terminar el juego
